@@ -105,14 +105,19 @@ F0 "TerminalBlock" 50
 F1 "TerminalBlock.sch" 50
 $EndSheet
 $Sheet
-S 8100 900  1800 1250
+S 8150 650  1850 1700
 U 52ED0CE0
 F0 "Fan" 50
 F1 "Fan.sch" 50
-F2 "Power+" O R 9900 1200 60 
-F3 "Power-" I R 9900 1400 60 
-F4 "Tach" I R 9900 1600 60 
-F5 "Tach_out" O L 8100 1400 60 
-F6 "Fan_in" I L 8100 1200 60 
+F2 "Power+" O R 10000 950 60 
+F3 "Power-" I R 10000 1150 60 
+F4 "Tach" I R 10000 1350 60 
+F5 "Tach_out" O L 8150 2100 60 
+F6 "Fan_in" I L 8150 850 60 
+F7 "Current Measure" O L 8150 1950 60 
+F8 "MOSI" I L 8150 1100 60 
+F9 "MISO" O L 8150 1250 60 
+F10 "CLK" I L 8150 1400 60 
+F11 "CS_N" I L 8150 1550 60 
 $EndSheet
 $EndSCHEMATC
