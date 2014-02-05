@@ -29,14 +29,15 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
+LIBS:BenchBudEE
 LIBS:BenchBudEE-cache
 EELAYER 27 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 8
+Sheet 1 9
 Title ""
-Date "4 feb 2014"
+Date "5 feb 2014"
 Rev ""
 Comp ""
 Comment1 ""
@@ -119,5 +120,11 @@ F8 "MOSI" I L 8150 1100 60
 F9 "MISO" O L 8150 1250 60 
 F10 "CLK" I L 8150 1400 60 
 F11 "CS_N" I L 8150 1550 60 
+$EndSheet
+$Sheet
+S 4200 1200 2050 1450
+U 52F22A27
+F0 "PowerAdjustmentMonitor" 50
+F1 "PowerAdjustmentMonitor.sch" 50
 $EndSheet
 $EndSCHEMATC

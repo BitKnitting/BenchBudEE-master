@@ -1,4 +1,4 @@
-update=2/4/2014 4:32:28 AM
+update=2/5/2014 1:55:46 AM
 version=1
 last_client=eeschema
 [cvpcb]
@@ -84,3 +84,4 @@ LibName27=opto
 LibName28=atmel
 LibName29=contrib
 LibName30=valves
+LibName31=BenchBudEE
