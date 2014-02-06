@@ -37,7 +37,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 3 9
 Title ""
-Date "5 feb 2014"
+Date "6 feb 2014"
 Rev ""
 Comp ""
 Comment1 ""
@@ -313,19 +313,8 @@ Wire Wire Line
 	8300 1450 8300 1150
 Wire Wire Line
 	8300 4300 8300 4550
-$Comp
-L GNDA #PWR?
-U 1 1 52F0DC0D
-P 5200 4200
-F 0 "#PWR?" H 5200 4200 40  0001 C CNN
-F 1 "GNDA" H 5200 4130 40  0000 C CNN
-F 2 "" H 5200 4200 60  0000 C CNN
-F 3 "" H 5200 4200 60  0000 C CNN
-	1    5200 4200
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
-	5200 3050 5200 4200
+	5200 3050 5200 4250
 Wire Wire Line
 	5200 3900 5450 3900
 $Comp
@@ -432,4 +421,15 @@ Text Notes 8950 3000 0    60   ~ 0
 Instrumentation Amp
 Text Notes 3500 1950 0    60   ~ 0
 16-24bit ADC
+$Comp
+L AGND #PWR?
+U 1 1 52F3642E
+P 5200 4250
+F 0 "#PWR?" H 5200 4250 40  0001 C CNN
+F 1 "AGND" H 5200 4180 50  0000 C CNN
+F 2 "" H 5200 4250 60  0000 C CNN
+F 3 "" H 5200 4250 60  0000 C CNN
+	1    5200 4250
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
