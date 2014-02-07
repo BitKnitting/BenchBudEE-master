@@ -30,6 +30,7 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:BenchBudEE
+LIBS:arduino_shieldsNCL
 LIBS:BenchBudEE-cache
 EELAYER 27 0
 EELAYER END
@@ -37,7 +38,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 4 9
 Title ""
-Date "6 feb 2014"
+Date "7 feb 2014"
 Rev ""
 Comp ""
 Comment1 ""
@@ -46,13 +47,13 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 Text HLabel 1550 3650 0    60   Input ~ 0
-DIN+
+RELAY+
 Text HLabel 1550 4000 0    60   Output ~ 0
-DIN-
+RELAY-
 Text HLabel 9450 2650 2    60   BiDi ~ 0
-NC
+RELAY_NC
 Text HLabel 9450 2850 2    60   BiDi ~ 0
-NO
+RELAY_NO
 $Comp
 L PHTRANS U?
 U 1 1 52F203F6
@@ -109,7 +110,7 @@ F 3 "~" H 8650 2700 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Text HLabel 9500 2050 2    60   BiDi ~ 0
-COM
+RELAY_COM
 Wire Wire Line
 	9050 2650 9450 2650
 Wire Wire Line

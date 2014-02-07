@@ -1,4 +1,4 @@
-update=2/5/2014 1:55:46 AM
+update=2/7/2014 1:11:39 AM
 version=1
 last_client=eeschema
 [cvpcb]
@@ -85,3 +85,4 @@ LibName28=atmel
 LibName29=contrib
 LibName30=valves
 LibName31=BenchBudEE
+LibName32=//DISKSTATION/Margaret/Contextual Electronics/KiCad stuff/arduino_shieldsNCL
